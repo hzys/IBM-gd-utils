@@ -22,7 +22,7 @@ create_mainfest_file(){
     echo "应用名称：${IBM_APP_NAME}"
     read -p "请输入你的应用内存大小(默认256)：" IBM_MEM_SIZE
     if [ -z "${IBM_MEM_SIZE}" ];then
-    IBM_MEM_SIZE=192
+    IBM_MEM_SIZE=256
     fi
     echo "内存大小：${IBM_MEM_SIZE}"
     read -p "请输入你的应用所在区域(不知道的看应用URL，cf前面的us-south就是)：" IBM_APP_REGION
