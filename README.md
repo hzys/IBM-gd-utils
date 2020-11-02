@@ -1,4 +1,4 @@
-# IBM-gd-utils 20201102重启
+# IBM-gd-utils
 
 IBM Cloud Fonudray + gd-utils + Github Actions
 
